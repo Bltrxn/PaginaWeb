@@ -1,0 +1,499 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{font-size: 3.2em;}
+h2{font-size: 2.4em;}
+h3{font-size: 1.7em; font-weight: lighter;}
+p{font-size: 1em;}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Verdana, Tahoma, sans-serif, Helvetica, sans-serif;
+    min-height: 100vh;
+}   
+
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 15px;
+    border: 1px solid rgb(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgb(0, 0, 0, 0.5);
+    color: black;
+    background-color: red;
+    margin: 20px;
+}
+
+button:hover{
+    background-color: rgb(170, 3, 3);
+}
+
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.Tab{
+    max-width: 1400px;
+    margin: auto;
+}
+
+header{
+    background-color: rgb(255, 0, 0);
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: whitesmoke;
+    font-size: 1.7em;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+
+header a:hover{
+    color: white;
+}
+
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(Fotos-Pagina/Logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#Calendario .img-container{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ), url(Fotos-Pagina/mundo.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding: 150px;
+    margin: 20px;
+    border-radius: 25px;
+}
+
+#Calendario p{
+    display: none;
+}
+
+#Calendario .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#Escuderias{
+    color: white;
+    background-color: rgb(26, 26, 27);
+    text-align: center;
+}
+
+
+#Escuderias .container{
+ padding: 150px 0px;
+}
+
+#Escuderias p{
+    display: none;
+}
+
+#Escuderias .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(Fotos-Pagina/RedBull.png);
+}
+
+
+.carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(Fotos-Pagina/Ferrari.jpg);
+}
+
+.carta:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(Fotos-Pagina/Mercedes.jpg);
+}
+
+.carta:nth-child(4){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(Fotos-Pagina/Alpine.jpg);
+}
+
+.carta:nth-child(5){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(Fotos-Pagina/McLaren.jpg);
+}
+
+.carta:nth-child(6){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(Fotos-Pagina/AlfaRome.jpg);
+}
+
+.carta:nth-child(7){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(Fotos-Pagina/AstonMartin.jpg);
+}
+
+.carta:nth-child(8){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(Fotos-Pagina/Haas.jpg);
+}
+
+.carta:nth-child(9){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(Fotos-Pagina/AlphaTauri.jpg);
+}
+
+.carta:nth-child(10){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(Fotos-Pagina/Williams.jpg);
+}
+
+
+#Noticias{
+    color: white;
+    background-color: rgb(26, 26, 27);
+    text-align: center;
+}
+
+#Noticias .container{
+    padding: 150px 0px;
+}
+
+
+#Noticias .Noticia{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.Noticia:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(Fotos-Pagina/PitStop.jpg);
+}
+
+
+.Noticia:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(Fotos-Pagina/Singapur.jpg);
+}
+
+
+.Noticia:nth-child(4){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(Fotos-Pagina/Salida.jpg);
+}
+
+
+table{
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+th{
+    padding: 20px 15px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+td{
+    padding: 15px;
+}
+
+table tr:nth-child(odd) td{
+    background-color: rgb(224, 220, 220);
+}
+
+footer{
+    background-color: rgb(255, 255, 255);
+}
+
+footer p{
+    margin: 0;
+    color: rgb(0, 0, 0);
+    padding: 12px;
+}
+
+footer .container{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+@media(min-width: 720px){
+
+    header{
+        position: fixed;
+        width: 100%;
+    }
+
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+    #Calendario .container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+
+    #Calendario .texto{
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding-left: 30px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #Calendario .img-container{
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        ), url(Fotos-Pagina/mundo.jpg);
+        background-size: cover;
+        background-position: center center;
+        width: 500px;
+        height: 400px;
+    }
+
+    #Calendario p{
+        display: flex;
+    }
+
+    #Escuderias .escuderia{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    #Escuderias h3{
+        margin-top: 0;
+    }
+
+    #Escuderias .carta{
+        padding: 25px;
+        background-size:100% 100px;
+        background-repeat: no-repeat;
+        background-position-y: 0;
+    }
+
+    #Escuderias p{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+
+    .carta:first-child{
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url(Fotos-Pagina/RedBull.png);
+    }
+    
+    
+    .carta:nth-child(2){
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url(Fotos-Pagina/Ferrari.jpg);
+    }
+    
+    .carta:nth-child(3){
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url(Fotos-Pagina/Mercedes.jpg);
+    }
+    
+    .carta:nth-child(4){
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url(Fotos-Pagina/Alpine.jpg);
+    }
+    
+    .carta:nth-child(5){
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url(Fotos-Pagina/McLaren.jpg);
+    }
+    
+    .carta:nth-child(6){
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url(Fotos-Pagina/AlfaRome.jpg);
+    }
+    
+    .carta:nth-child(7){
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url(Fotos-Pagina/AstonMartin.jpg);
+    }
+    
+    .carta:nth-child(8){
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url(Fotos-Pagina/Haas.jpg);
+    }
+    
+    .carta:nth-child(9){
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url(Fotos-Pagina/AlphaTauri.jpg);
+    }
+    
+    .carta:nth-child(10){
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url(Fotos-Pagina/Williams.jpg);
+    }
+
+    footer .container{
+        justify-content: flex-end;
+    }
+
+}
